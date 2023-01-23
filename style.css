@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(217, 221, 227);
+}
+.container1{
+    position:relative;
+}
+.small-circle{
+    width:30px;
+    height:30px;
+    position:absolute;
+    background:rgb(202, 147, 20);
+    border-radius: 50%;
+    left:30px;
+    top:20px;
+}
+.name{
+    position:absolute;
+    left:75px;
+    top:15px;
+    padding-top:10px;
+    font-size:20px;
+    font-weight: bold;
+}
+.name span{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.about{
+    position:absolute;
+    right:30px;
+    top:15px;
+
+}
+.image{
+    width:100px;
+    height:100px;
+}
+.section{
+    margin:0 auto;
+    background-attachment: fixed;
+
+}
+.content{
+    width:415px;
+    position:absolute;
+    top:25%; 
+    left:49%;
+}
+.h1{
+    font-size: 70px;
+    font-family: sans-serif;
+    padding-top:40px;
+    font-weight: bold;
+}
+.h2{
+    font-size:26px;
+    padding-top:30px;
+    font-weight: bold;
+    padding-bottom:8px;
+}
+.h3{
+    text-align:justify;
+    font-size:20px;
+}
+.button{
+    display:flex;
+    position:relative;
+    width:460px;
+    height:150px;
+}
+.button1{
+    width:150px;
+    border-radius:50%;
+    border:2px rgb(6, 4, 4) solid;
+    text-align:center;
+    padding-top:55px;
+    font-size:25px;
+    font-weight: bold;
+    transition:0.5s;
+    background-color: rgb(220, 174, 8);
+}
+.button2{
+    width:150px;
+    border-radius:50%;
+    border:2px black solid;
+    text-align:center;
+    padding-top:55px;
+    font-size:25px;
+    font-weight: bold;
+    transition:0.5s;
+    background-color: rgb(220, 8, 26);
+}
+.button3{
+    width:150px;
+    border-radius:50%;
+    border:2px black solid;
+    text-align:center;
+    padding-top:55px;
+    font-size:25px;
+    font-weight: bold;
+    transition:0.5s;
+    background-color: rgb(19, 208, 242);
+}
+.button1:hover{
+    background-color: white;
+}
+.button2:hover{
+    background-color: white;
+}
+.button3:hover{
+    background-color: white;
+}
+.footer{
+    display: grid;
+    position:absolute;
+    width:100%;
+    top:900px;
+    font-weight: bold;
+    grid-template-columns: 25% 25% 25% 25%;
+}
